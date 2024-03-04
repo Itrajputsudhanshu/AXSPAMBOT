@@ -46,7 +46,7 @@ async def help(event):
 extra_msg = f"""
 **» ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:**
 
-𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ᴅᴇᴀᴅ sᴘᴀᴍ ʙᴏᴛ ᴄᴍᴅꜱ**
+𝗨𝘀𝗲𝗿𝗕𝗼𝘁: **ansh sᴘᴀᴍ ʙᴏᴛ ᴄᴍᴅꜱ**
   1) {hl}ping 
   2) {hl}reboot
   3) {hl}sudo <reply to user>  --> Owner Cmd
@@ -110,7 +110,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**⚡🇩𝜩Ⓐ︎🇩 ⚡**
+**⚡ANSH ⚡**
 """                     
            
            
@@ -181,7 +181,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ ANSH X SPAM ʙᴏᴛs !! @Ansh_xD8r", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
