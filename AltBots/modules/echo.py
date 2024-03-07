@@ -27,11 +27,11 @@ async def echo(event):
             user_id = reply_msg.sender_id
 
             if user_id in ALTRON:
-                await event.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 💘✨ ")
+                await event.reply("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐇𝐀 𝐌𝐀𝐉𝐀𝐊 𝐓𝐇𝐎𝐑𝐈 𝐇𝐀 🥵⚡ ")
             elif user_id == OWNER_ID:
-                await event.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝙾𝚆𝙽𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 🌿✨.")
+                await event.reply("🥵 𝐎𝐖𝐍𝐄𝐑 𝐇𝐀 𝐕𝐌𝐑𝐎 𝐏𝐀𝐍𝐆𝐀 𝐍𝐀 𝐋𝐄.")
             elif user_id in SUDO_USERS:
-                await event.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 💥⚡.")
+                await event.reply("𝐓𝐇𝐈𝐒 𝐊𝐈𝐃 𝐀𝐋𝐒𝐎 𝐂𝐎𝐍𝐓𝐀𝐈𝐍 𝐒𝐔𝐃𝐎 🥵⚡.")
             else:
                 try:
                     alt = Get(base64.b64decode('QFRoZUFsdHJvbg=='))
