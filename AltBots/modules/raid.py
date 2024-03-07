@@ -35,11 +35,11 @@ async def raid(e):
 
         try:
             if uid in ALTRON:
-                await e.reply("YE TO IS BOT KE PAPA HA 💘✨ .")
+                await e.reply("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐇𝐀 𝐌𝐀𝐉𝐀𝐊 𝐓𝐇𝐎𝐑𝐈 𝐇𝐀 🥵⚡ .")
             elif uid == OWNER_ID:
-                await e.reply("YE OWNER HAI IZZET SE 🌿✨")
+                await e.reply("🥵 𝐎𝐖𝐍𝐄𝐑 𝐇𝐀 𝐕𝐌𝐑𝐎 𝐏𝐀𝐍𝐆𝐀 𝐍𝐀 𝐋𝐄")
             elif uid in SUDO_USERS:
-                await e.reply("ABE ANSH KE POWERS ISKE PAS BHI HA 💥⚡.")
+                await e.reply("𝐓𝐇𝐈𝐒 𝐊𝐈𝐃 𝐀𝐋𝐒𝐎 𝐂𝐎𝐍𝐓𝐀𝐈𝐍 𝐒𝐔𝐃𝐎 🥵⚡⚡.")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -100,17 +100,17 @@ async def rraid(e):
         try:
             user_id = entity.id
             if user_id in ALTRON:
-                await e.reply("YE TO BOT KA PAPA NIKLA 💘✨ ")
+                await e.reply("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐇𝐀 𝐌𝐀𝐉𝐀𝐊 𝐓𝐇𝐎𝐑𝐈 𝐇𝐀 🥵⚡ ")
             elif user_id == OWNER_ID:
-                await e.reply("YE OWNER HA IZZET SE🌿✨.")
+                await e.reply("🥵 𝐎𝐖𝐍𝐄𝐑 𝐇𝐀 𝐕𝐌𝐑𝐎 𝐏𝐀𝐍𝐆𝐀 𝐍𝐀 𝐋𝐄.")
             elif user_id in SUDO_USERS:
-                await e.reply("ANSH KE POWERS ISKE PAS BHI HA 💥⚡.")
+                await e.reply("𝐓𝐇𝐈𝐒 𝐊𝐈𝐃 𝐀𝐋𝐒𝐎 𝐂𝐎𝐍𝐓𝐀𝐈𝐍 𝐒𝐔𝐃𝐎 🥵⚡.")
             else:
                 global REPLY_RAID
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("» BOLNE DE MADHER LAURE KO !! ✅")
+                await e.reply("» 𝐎𝐊𝐀𝐓 𝐃𝐈𝐊𝐇𝐀𝐓𝐀 𝐈𝐒 𝐑𝐀𝐍𝐃𝐈 𝐊𝐀 👅🤤 !! ✅")
         except NameError:
             await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
@@ -246,11 +246,11 @@ async def craid(e):
 
         try:
             if uid in ALTRON:
-                await e.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝙳𝙴𝚅𝙻𝙾𝙿𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 💘✨ ")
+                await e.reply("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 𝐇𝐀 𝐌𝐀𝐉𝐀𝐊 𝐓𝐇𝐎𝐑𝐈 𝐇𝐀 🥵⚡ ")
             elif uid == OWNER_ID:
-                await e.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝙾𝚆𝙽𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 🌿✨")
+                await e.reply("🥵 𝐎𝐖𝐍𝐄𝐑 𝐇𝐀 𝐕𝐌𝐑𝐎 𝐏𝐀𝐍𝐆𝐀 𝐍𝐀 𝐋𝐄")
             elif uid in SUDO_USERS:
-                await e.reply("𝙽𝙾, 𝚃𝙷𝙸𝚂 𝙶𝚄𝚈 𝙸𝚂 𝚂𝚄𝙳𝙾 𝚄𝚂𝙴𝚁 𝙾𝙵 𝙳𝙴𝙰𝙳 𝙱𝙾𝚃 💥⚡.")
+                await e.reply("𝐓𝐇𝐈𝐒 𝐊𝐈𝐃 𝐀𝐋𝐒𝐎 𝐂𝐎𝐍𝐓𝐀𝐈𝐍 𝐒𝐔𝐃𝐎 🥵⚡.")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
