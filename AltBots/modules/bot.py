@@ -24,7 +24,7 @@ async def ping(e):
         altron = await e.reply(f"» __⚡ANSH⚡__")
         end = datetime.now()
         mp = (end - start).microseconds / 1000
-        await altron.edit(f"__💘✨ ANSH APKA PAPA  🌺💥__")
+        await altron.edit(f"_⚡🥵 𝐀𝐍𝐒𝐇 𝐆𝐎𝐍𝐍𝐀 𝐃𝐄𝐒𝐓𝐑𝐎𝐘 ⚡_")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -127,4 +127,4 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴅᴇᴀᴅ ʙᴏᴛ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ✨⚡")
+        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ⚡🥵 𝐀𝐍𝐒𝐇 ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ✨⚡")
