@@ -6,11 +6,11 @@ from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10
 START_BUTTON = [
     [
         Button.inline("❤‍🔥 ᴄᴏᴍᴍᴀɴᴅs ❤‍🔥", data="help_back"),
-        Button.url("♨🉐 𝙾𝚆𝙽𝙴𝚁 ♨🉐", "https://t.me/Ansh_xD8")
+        Button.url("𝐎𝐖𝐍𝐄𝐑 ⚠️", "https://t.me/Ansh_xD8")
     ],
     [
-        Button.url(" 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ", "https://t.me/Ansh_xDz"),
-        Button.url(" 𝚂𝚄𝙿𝙿𝙾𝚃  ", "https://t.me/THE_INDRAPRASTHA")
+        Button.url("𝐂𝐇𝐀𝐍𝐍𝐄𝐋⚡𝙻 ", "https://t.me/Ansh_xDz"),
+        Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🔱  ", "https://t.me/THE_INDRAPRASTHA")
     ],
     [
         Button.url(" CLAN ", "https://t.me/TEAM_R2F")
