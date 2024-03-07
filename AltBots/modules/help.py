@@ -15,8 +15,8 @@ HELP_BUTTON = [
       Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Ansh_xD8")
     ],
     [
-      Button.url("🌴 ᴄʜᴀɴɴᴇʟ 🌴", "https://t.me/Ansh_xDz"),
-      Button.url("🌺 sᴜᴘᴘᴏʀᴛ 🌺", "https://t.me/THE_INDRAPRASTHA")
+      Button.url("𝐂𝐇𝐀𝐍𝐍𝐄𝐋⚡", "https://t.me/Ansh_xDz"),
+      Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🔱", "https://t.me/THE_INDRAPRASTHA")
     ]
   ]
 
@@ -72,7 +72,7 @@ raid_msg = f"""
   1) {hl}raid <count> <username>
   2) {hl}raid <count> <reply to user>
 
-𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **BOLNE DE MADHER LAND KO.**
+𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱: **𝐎𝐊𝐀𝐓 𝐃𝐈𝐊𝐇𝐀𝐓𝐀 𝐈𝐒 𝐑𝐀𝐍𝐃𝐈 𝐊𝐀 👅.**
   1) {hl}rraid <replying to user>
   2) {hl}rraid <username>
 
@@ -93,7 +93,7 @@ raid_msg = f"""
   2) {hl}craid <count> <reply to user>
 
 
-**⚡ANSH ⚡**
+**⚡𝐀𝐍𝐒𝐇 ⚡**
 """
 
 spam_msg = f"""
@@ -110,7 +110,7 @@ spam_msg = f"""
   1) {hl}hang <counter>
 
 
-**⚡ANSH ⚡**
+**⚡𝐀𝐍𝐒𝐇 ⚡**
 """                     
            
            
@@ -135,11 +135,11 @@ async def helpback(event):
               ],
               [
                 Button.inline("💖 ᴇxᴛʀᴀ 💖", data="extra"),
-                Button.url("💘 𝙾𝚆𝙽𝙴𝚁 💘", "https://t.me/Ansh_xD8")
+                Button.url("🥵 𝐎𝐖𝐍𝐄𝐑 🥶", "https://t.me/Ansh_xD8")
               ],
                          
-                Button.url("🌺 ᴄʜᴀɴɴᴇʟ 🌺", "https://t.me/Ansh_xDz"),
-                Button.url("🌴 sᴜᴘᴘᴏʀᴛ 🌴", "https://t.me/THE_INDRAPRASTHAC")
+                Button.url("𝐂𝐇𝐀𝐍𝐍𝐄𝐋⚡", "https://t.me/Ansh_xDz"),
+                Button.url("𝐒𝐔𝐏𝐏𝐎𝐑𝐓 🔱", "https://t.me/THE_INDRAPRASTHAC")
             ],
           )
     else:
@@ -200,4 +200,4 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Saif_Dictator", cache_time=0, alert=True)
+        await event.answer("ᴍᴀᴋᴇ ʏᴏᴜʀ ᴏᴡɴ 🇩𝜩Ⓐ︎🇩 sᴘᴀᴍ  ʙᴏᴛs !! @Ansh_xD8", cache_time=0, alert=True)
