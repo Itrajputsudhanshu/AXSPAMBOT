@@ -110,7 +110,7 @@ async def rraid(e):
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("» 𝐎𝐊𝐀𝐓 𝐃𝐈𝐊𝐇𝐀𝐓𝐀 𝐈𝐒 𝐑𝐀𝐍𝐃𝐈 𝐊𝐀 👅🤤 !! ✅")
+                await e.reply("»𝐁𝐎𝐋𝐍𝐄 𝐃𝐄 𝐌𝐀𝐃𝐇𝐄𝐑𝐂𝐇𝐎𝐃 𝐊𝐄 𝐁𝐀𝐂𝐂𝐇𝐄 𝐊𝐎 𝐀𝐁𝐁 💋💋")
         except NameError:
             await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}rraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
@@ -140,7 +140,7 @@ async def drraid(e):
             global REPLY_RAID
             if check in REPLY_RAID:
                 REPLY_RAID.remove(check)
-            await e.reply("» BACH GYA RANDI !! ✅")
+            await e.reply("» 𝐉𝐀𝐍𝐄 𝐊𝐀𝐇𝐄 𝐃𝐈𝐘𝐀 𝐑𝐀𝐍𝐃𝐈 𝐊𝐄 𝐏𝐈𝐋𝐋𝐄 𝐊𝐎 😰🥵😶‍🌫")
         except NameError:
             await e.reply(f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲: 𝐃𝐑𝐞𝐩𝐥𝐲𝐑𝐚𝐢𝐝\n  » {hl}drraid <ᴜꜱᴇʀɴᴀᴍᴇ ᴏꜰ ᴜꜱᴇʀ>\n  » {hl}drraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
